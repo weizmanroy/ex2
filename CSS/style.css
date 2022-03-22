@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer, nav, aside, section {
+    display: block;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+    background: white;
+    margin-left: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    margin-top: 31px;
+}
+
+#logo{
+    width: 41px;
+    height: 41px;
+    top: 25px;
+}
+
+.wrapper{
+    display:flex;
+    flex-direction:row;
+}
+.wrapper h1{
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 20px;
+margin-top: 5px;
+
+
+}
+
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    list-style: none;
+    margin-top: 65px;
+    position: absolute;
+    width: 1000px;
+    height: 23px;
+    left: -13px;
+}
+
+nav li a{
+    text-align: canter;
+    padding: 40px 40px;
+    color: rgba(0, 0, 0, 0.411);
+    font-size: 18px;
+}
+nav li a:hover{
+    color: rgb(0, 0, 0);
+
+}
+
+nav #active{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+
+#paragraph-1{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    margin-top: 20px;
+    /* or 152% */
+
+    color: #7D7987;
+
+    mix-blend-mode: normal;
+}
+
+h2{
+margin-top: 120px;
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 53px;
+margin-left: 20px;
+/* identical to box height, or 156% */
+
+color: #000000;
+
+mix-blend-mode: normal;
+}
+
+#main-photo img{
+    height: 475px;
+    width: 550.46px;
+    border-radius: 25px;
+    margin-top: 14px;
+}
+
+#paragraph-2{
+
+margin-top: 30px;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+color: #7D7987;
+
+mix-blend-mode: normal;
+}
+
+#button-1{
+    margin-top: 20px;
+    border-radius: 30px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    background-color: #458FF6;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+h3{
+    margin-top: 80px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 53px;
+}
+
+
+#paragraph-2{
+    margin-top: 30px;
+}
+.line{
+    border: 1px solid black;
+    width: 80px;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+
+#button-2{
+    margin-top: 40px;
+    border-radius: 30px;
+    border: 1px solid #458FF6;
+    width: 150px;
+    height: 50px;
+    color: #458FF6;
+    background-color: transparent;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+.threePics, .moreThreePics{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#box {
+    margin-left: 25px;
+    background-color: white;
+    text-align: center;
+    margin-top: 50px;
+    cursor: pointer;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    Width: 350px;
+    Height: 354px;
+}
+
+#box img{
+    margin-top: 20px;
+    margin-right: 130px;
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+}
+#box h3{
+    margin-top: 50px;
+    font-size: 25px;
+    text-align: left;
+}
+
+
+footer{
+    margin-top: 800px;
+    position: absolute;
+width: 1599.02px;
+height: 425px;
+left: 1px;
+top: 1575px;
+
+background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+
+}
+
+footer p{
+left: 1.62%;
+right: 73.95%;
+top: 84.41%;
+bottom: 1.68%;
+
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 28px;
+text-align: left;
+align-items: left;
+/* identical to box height, or 175% */
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+}
+
+footer a{
+
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 60px;
+/* or 300% */
+
+color: #FFFFFF;
+
+}
+
+#socialIcon{
+    color: #ffffff;
+
+}
+
+
+footer #logo{
+    margin-top: 72px;
+    
+}
+
+footer h1{
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+margin-left: 60px;
+margin-top: -40px;
+color: #FFFFFF;
+}
+
+
+
+.TestSection{
+    width: 1120px;
+height: 470px;
+left: 25px;
+top: 270px;
+
+background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+border-radius: 24px;
+color: white;
+}
+
+.TestSection h2{
+    color: white;
+}
+.TestSection p{
+    margin-top: 15px;
+    margin-left: 20px;
+    left: 3.12%;
+right: 70.62%;
+top: 18.25%;
+bottom: 75.75%;
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 30px;
+/* or 158% */
+
+color: rgba(255, 255, 255, 0.9);
+
+mix-blend-mode: normal;
+}
+
+.line{
+    border: 1px solid white;
+}
+
+#eduard{
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.TestSection h3{
+
+margin-left: 40px;
+margin-top: -1px;
+font-size: 22px;
+}
+
+.TestSection h4{
+    margin-left: 40px;
+}
+
+.checkPics{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+#box{
+    width: 400px;
+}
+
+#box img{
+    width: 100%;
+    height: 100%;
+}
+#box p{
+    text-align: left;
+    margin-bottom: 30px;
+}
+#box a{
+    margin-top: 30px;
+    margin-right: 270px;
+}
+#button-2{
+    position: absolute;
+    margin-top: 400px;
+}
+
+
+
+
